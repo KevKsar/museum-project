@@ -1,20 +1,30 @@
 
 
 
+
+/*##########################################################################*/
+/* Section Address + Hours */
+.sec-contact-info {}
+
 /* address block */
-.address {}
+.sec-contact-info__address {}
 
 /* open hours block */
-.openhours {}
+.sec-contact-info__openhours {}
+
+/* image address section */
+.sec-contact-info__img {}
+
+/*##########################################################################*/
+/* Section Form */
+.sec-form {}
 
 /* Button contact form */
-.bt-send {}
+.sec-form__bt-send {}
 
-/* Section Form */
-.sec-adress-hours {}
 
-/* Section Address + Hours */
-.sec-form {}
+
+/*##########################################################################*/
 
 /* Section for google map intergation */
 .sec-map {}
