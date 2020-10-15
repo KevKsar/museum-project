@@ -1,4 +1,8 @@
-remove .gitmessage.txt
+content page about
 
-- remove files .gitmessage.txt (uploaded by mistake )
-- remove sub title - title section (no need)
+- add content of each section:
+    - abous us
+    - departments
+    - video (fake picture only)
+    - behind
+/!\ css class not create next step
