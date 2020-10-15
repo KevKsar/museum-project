@@ -28,13 +28,13 @@
     text-align: center;
     font-weight:normal; 
   }
-  
+  /* No need in about page
   .sec-title__sub {
     font-family: "muli";
     color: #fff;
     font-size: 18px;
     text-align: center;
-  }
+  } */
   
   .sec-title__nav {
     text-transform: uppercase;
