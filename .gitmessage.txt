@@ -1,0 +1,4 @@
+remove .gitmessage.txt
+
+- remove files .gitmessage.txt (uploaded by mistake )
+- remove sub title - title section (no need)
