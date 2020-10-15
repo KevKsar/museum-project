@@ -1,0 +1,93 @@
+/* FLEX section de complet */   
+  .wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    text-align: center;
+  }
+  
+
+  .sec-title {
+    flex: 1 100%;
+  }
+  .sec-contact {
+    flex: 2 50%;
+  }
+  .sec-form  {
+    flex: 3 50%;
+    text-align: left;
+  }
+  .sec-map {
+    flex: 4 100%;
+  }
+  .sec-venues {
+    flex: 5 100%;
+  }
+
+    
+  @media all and (min-width: 800px) {
+    .sec-title    { order: 1; }
+    .sec-contact { order: 2; } 
+    .sec-form    { order: 3; }
+    .sec-map { order: 4; }
+    .sec-venues   { order: 5; }
+  }
+  
+/*#############################################################*/
+/* FLEX in Contact info section */
+
+.sec-contact {
+    display: flex;  
+    flex-flow: row wrap;
+    text-align: left;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+
+.sec-title__breakline {
+    flex-basis: 100%;
+  }
+
+@media all and (min-width: 800px) {
+    .sec-contact__img { max-width: 100vh; }
+}
+
+
+/*#############################################################*/
+/* FLEX in Form section */
+
+.sec-form {
+    display: flex;  
+    flex-flow: row wrap;
+    text-align: left;
+    align-items: stretch;
+  }
+
+.sec-form__block-up-left {flex: 1 50%;}
+.sec-form__block-up-right {flex: 1 50%;}
+
+.sec-form_block-down {flex: 1 100%;}
+
+/*#############################################################*/
+/* FLEX in Other Venues Section */
+
+.sec-venues {
+    display: flex;  
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+
+.sec-venues__title {
+    flex: 1 100%;
+}
+.sec-venues__block {
+    flex: 1 33%;
+}
+
+
+@media all and (min-width: 800px) {
+    .sec-venues__title  { order: 1; }
+    .sec-venues__block { order: 2; } 
+  }
+  

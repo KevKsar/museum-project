@@ -1,16 +1,19 @@
 
 @font-face {
-  font-family: "Prata" ;
-  src: url(/fonts/prata.ttf);
+  font-family: "prata";
+  src: url("../fonts/Prata/Prata-Regular.ttf") format("truetype");
 }
-
 @font-face {
-  font-family: "Muli" ;
-  src: url(/fonts/muli.ttf);
+  font-family: "muli";
+  src: url("../fonts/Multi/Muli-Regular.ttf") format("truetype");
+      
 }
 
-
-
+/*
+.main-contact {
+  width: 1200px;
+}
+*/
 
 /*##########################################################################*/
 /* Page Title */
@@ -22,14 +25,14 @@
 }
 
 .sec-title__main {
-  font-family: "Prata";
+  font-family: "prata";
   color: #fff;
   font-size: 48px;
   text-align: center;
 }
 
 .sec-title__sub {
-  font-family: "Prata";
+  font-family: "muli";
   color: #fff;
   font-size: 18px;
   text-align: center;
@@ -39,26 +42,53 @@
   text-transform: uppercase;
   color: #fff;
   font-size: 13px;
+  flex: unset;
+  text-align: left;
 }
 
 /*##########################################################################*/
 /* Section Address + Hours */
 .sec-contact {}
 
-.sec-contact__img {}
+.sec-contact__img {
+  max-width: 570px;
+}
 
-.sec-contact__addressblock {}
+.sec-contact__addressblock {
+  font-family: "muli";
+}
 
-.sec-contact-addressblock__title {}
-.sec-contact-addressblock__address {}
+.sec-contact-addressblock__title {
+  font-family: "prata";
+  font-size: 20px;
+  color: #302e2f;
+}
+.sec-contact-addressblock__address {
+  font-size: 16px;
+  line-height: 24px;
+  color: #777777;
+}
 
-.sec-contact__openhours {}
+.sec-contact-addressblock-address__link {
+  text-decoration: none !important;
+  color: #777777;
+}
+
+.sec-contact__openhours {
+  font-size: 16px;
+  line-height: 24px;
+  color: #777777;
+}
 
 
 /*##########################################################################*/
 /* Section Form */
 .sec-form {
-  font-family: "Prata";
+  font-family: "prata";
+  font-size: 16px;
+  line-height: 24px;
+  color: #777777;
+  text-align: left !important;
 }
 
 .sec-form__block-up-left {}
@@ -96,18 +126,30 @@
 
 /*##########################################################################*/
 /* Section Other Venus */
-.sec-venues {}
+.sec-venues {
+}
 
-.sec-venues__block {}
+.sec-venues__title {
+
+}
+
+.sec-venues__block {
+  text-align: center !important;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777777;
+}
 
 .sec-venues-block__titre {
-  font-family: "Prata";
+  font-family: "prata";
+  color: #302e2f;
+  font-size: 30px;
 }
 
 .sec-venues-block__address {
-  font-family: "Muli";
+  font-family: "muli";
 }
 
 .sec-venues-block__phone-mail {
-  font-family: "Muli";
+  font-family: "muli";
 }
