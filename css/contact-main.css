@@ -14,16 +14,32 @@
 
 /*##########################################################################*/
 /* Page Title */
-.sec-title {}
+.sec-title {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../img/bg/inner-banner-bg-1-1.jpg);
+}
 
 .sec-title__main {
-    font-family: "Muli";
+  font-family: "Prata";
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
 }
 
 .sec-title__sub {
-    font-family: "Prata";
+  font-family: "Prata";
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
 }
 
+.sec-title__nav {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 13px;
+}
 
 /*##########################################################################*/
 /* Section Address + Hours */
@@ -41,7 +57,9 @@
 
 /*##########################################################################*/
 /* Section Form */
-.sec-form {}
+.sec-form {
+  font-family: "Prata";
+}
 
 .sec-form__block-up-left {}
 .sec-form__block-up-right {}
@@ -82,8 +100,14 @@
 
 .sec-venues__block {}
 
-.sec-venues-block__titre {}
+.sec-venues-block__titre {
+  font-family: "Prata";
+}
 
-.sec-venues-block__address {}
+.sec-venues-block__address {
+  font-family: "Muli";
+}
 
-.sec-venues-block__phone-mail {}
+.sec-venues-block__phone-mail {
+  font-family: "Muli";
+}
