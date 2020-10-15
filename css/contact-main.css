@@ -1,0 +1,89 @@
+
+@font-face {
+  font-family: "Prata" ;
+  src: url(/fonts/prata.ttf);
+}
+
+@font-face {
+  font-family: "Muli" ;
+  src: url(/fonts/muli.ttf);
+}
+
+
+
+
+/*##########################################################################*/
+/* Page Title */
+.sec-title {}
+
+.sec-title__main {
+    font-family: "Muli";
+}
+
+.sec-title__sub {
+    font-family: "Prata";
+}
+
+
+/*##########################################################################*/
+/* Section Address + Hours */
+.sec-contact {}
+
+.sec-contact__img {}
+
+.sec-contact__addressblock {}
+
+.sec-contact-addressblock__title {}
+.sec-contact-addressblock__address {}
+
+.sec-contact__openhours {}
+
+
+/*##########################################################################*/
+/* Section Form */
+.sec-form {}
+
+.sec-form__block-up-left {}
+.sec-form__block-up-right {}
+
+.sec-form_block-down {}
+
+.sec-form__bt {
+    background-color: #302e2f;
+    color: #fff;
+    margin-top: 20px;
+
+    border: none;
+    outline: none;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 12px 52px;
+    border-radius: 4px;
+    transition: all .4s ease;
+  }
+.sec-form__bt:hover {
+    background-color: #d99578;
+    color: #fff;
+  }
+
+
+/*##########################################################################*/
+/* Section for google map intergation */
+.sec-map {}
+
+.sec-map__iframe-gmap {}
+
+
+/*##########################################################################*/
+/* Section Other Venus */
+.sec-venues {}
+
+.sec-venues__block {}
+
+.sec-venues-block__titre {}
+
+.sec-venues-block__address {}
+
+.sec-venues-block__phone-mail {}
