@@ -34,6 +34,9 @@
                     <p><a class="sec-contact-addressblock-address__link" href="mailto:egyptmuseum@example.com">E: egyptmuseum@example.com</a></p>
                 </div>
             </div>
+            <div>
+                <hr class="sec-contact__hr">
+            </div>
             <div class="sec-contact__openhours">
                 <div>Mo & Tu : 9am to 6.00pm </div>
                 <div>We & Th : 10am to 7.00pm</div>
@@ -44,33 +47,38 @@
 
         <section class="sec-form">
             <form action="http://formspree.io/you@email.com">
-                <div class="sec-form__block-up-left">
-                    <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname"><br>
+                <div class="sec-form__form">
+                    <div class="sec-form__field-fname">
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                    </div>
+                    <div class="sec-form__field-email">
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email"><br>
+                    </div>
 
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email"><br>
-                </div>
+                    <div class="sec-form__field-lname">
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname"><br>
+                    </div>
 
-                <div class="sec-form_block-up-right">
-                    <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname"><br>
+                    <div class="sec-form__field-phone">
+                        <label for="phone">Phone:</label><br>
+                        <input type="text" id="phone" name="phone"><br>
+                    </div>
 
-                    <label for="phone">Phone:</label><br>
-                    <input type="text" id="phone" name="phone"><br>
-                </div>                
+                    <div class="sec-form__field-subject">
+                        <label for="subject">subject:</label><br>
+                        <input type="text" id="subject" name="subject"><br>
+                    </div>
 
-                <div class="sec-form_block-down"></div>
-                    <label for="subject">subject:</label><br>
-                    <input type="text" id="subject" name="subject"><br>
-
-                    <label for="message">Message:</label><br>
-                    <textarea id="message" name="message" rows="4" cols="50">
-                    </textarea>
-                    <br>
-
-
-                    <input class="sec-form__bt" type="submit" value="SEND MESSAGE">
+                    <div class="sec-form__field-message">
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="4" cols="50">
+                        </textarea>
+                        <br>
+                        <input class="sec-form__bt" type="submit" value="SEND MESSAGE">
+                    </div>
                 </div>
               </form> 
         </section>
@@ -95,7 +103,9 @@
                     p:321(888)789-0123<br>
                     E:egyptmuseum@example.com
                 </p>
-
+            </div>
+            <div>
+                <hr class="sec-venues-block__hr">
             </div>
 
             <div class="sec-venues__block">
@@ -109,7 +119,9 @@
                     p:+1(201)555 555 55<br>
                     E:egyptmuseum@example.com
                 </p>
-
+            </div>
+            <div>
+                <hr class="sec-venues-block__hr">
             </div>
 
             <div class="sec-venues__block">

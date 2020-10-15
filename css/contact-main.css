@@ -29,6 +29,7 @@
   color: #fff;
   font-size: 48px;
   text-align: center;
+  font-weight:normal; 
 }
 
 .sec-title__sub {
@@ -52,6 +53,10 @@
 
 .sec-contact__img {
   max-width: 570px;
+}
+
+@media screen and (max-width: 800px) {
+  .sec-contact__img { width: 100vh;  }
 }
 
 .sec-contact__addressblock {
@@ -80,6 +85,18 @@
   color: #777777;
 }
 
+.sec-contact__hr {
+  width: 1px;
+  height: 100%;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .sec-contact__hr {
+    width: 100%;
+    height: 1px;
+    }
+  }
+
 
 /*##########################################################################*/
 /* Section Form */
@@ -91,10 +108,15 @@
   text-align: left !important;
 }
 
-.sec-form__block-up-left {}
-.sec-form__block-up-right {}
+.sec-form__form {}
 
-.sec-form_block-down {}
+.sec-form__field-fname {}
+.sec-form__field-email {}
+.sec-form__field-lname {}
+.sec-form__field-phone {}
+.sec-form__field-subject {}
+.sec-form__field-message {}
+.sec-form__field-bt {}
 
 .sec-form__bt {
     background-color: #302e2f;
@@ -127,9 +149,14 @@
 /*##########################################################################*/
 /* Section Other Venus */
 .sec-venues {
+  font-weight:normal; 
 }
 
 .sec-venues__title {
+  font-family: "prata";
+  color: #302e2f;
+  font-size: 30px;
+  margin-bottom: 40px;
 
 }
 
@@ -142,8 +169,8 @@
 
 .sec-venues-block__titre {
   font-family: "prata";
-  color: #302e2f;
-  font-size: 30px;
+  font-size: 20px;
+  color: #302E2F;;
 }
 
 .sec-venues-block__address {
@@ -152,4 +179,16 @@
 
 .sec-venues-block__phone-mail {
   font-family: "muli";
+}
+
+.sec-venues-block__hr {
+width: 1px;
+height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .sec-venues-block__hr {
+  width: 100%;
+  height: 1px;
+  }
 }

@@ -24,7 +24,7 @@
   }
 
     
-  @media all and (min-width: 800px) {
+  @media all and (max-width: 800px) {
     .sec-title    { order: 1; }
     .sec-contact { order: 2; } 
     .sec-form    { order: 3; }
@@ -47,25 +47,40 @@
     flex-basis: 100%;
   }
 
-@media all and (min-width: 800px) {
-    .sec-contact__img { max-width: 100vh; }
+@media screen and (max-width: 800px) {
+    
 }
 
 
 /*#############################################################*/
 /* FLEX in Form section */
 
-.sec-form {
+.sec-form__form {
     display: flex;  
     flex-flow: row wrap;
     text-align: left;
     align-items: stretch;
   }
 
-.sec-form__block-up-left {flex: 1 50%;}
-.sec-form__block-up-right {flex: 1 50%;}
-
-.sec-form_block-down {flex: 1 100%;}
+  .sec-form__field-fname    { flex: 1 50%; }
+  .sec-form__field-email    { flex: 1 50%; }
+  .sec-form__field-lname    { flex: 1 50%; }
+  .sec-form__field-phone    { flex: 1 50%; }
+  .sec-form__field-subject  { flex: 2 100%; }
+  .sec-form__field-message  { flex: 2 100%; }
+  .sec-form__field-bt       { flex: 2 100%; }
+  
+  
+@media screen and (max-width: 800px) {
+    .sec-form__field-fname    { flex: 1 100%; order: 1; }
+    .sec-form__field-email    { flex: 1 100%; order: 3; }
+    .sec-form__field-lname    { flex: 1 100%; order: 2; }
+    .sec-form__field-phone    { flex: 1 100%; order: 4; }
+    .sec-form__field-subject  { flex: 1 100%; order: 5; }
+    .sec-form__field-message  { flex: 1 100%; order: 6; }
+    .sec-form__field-bt       { flex: 1 100%; order: 7; }
+  }
+  
 
 /*#############################################################*/
 /* FLEX in Other Venues Section */
@@ -86,8 +101,8 @@
 }
 
 
-@media all and (min-width: 800px) {
-    .sec-venues__title  { order: 1; }
-    .sec-venues__block { order: 2; } 
+@media screen and (max-width: 800px) {
+    .sec-venues__title  { flex: 1 100%; order: 1; }
+    .sec-venues__block { flex: 1 100%; order: 2; } 
   }
   
