@@ -4,7 +4,7 @@
     font-family: "prata";
     src: url("../fonts/Prata/Prata-Regular.ttf") format("truetype");
   }
-  @font-face {
+@font-face {
     font-family: "muli";
     src: url("../fonts/Multi/Muli-Regular.ttf") format("truetype");
         
@@ -21,7 +21,7 @@
     background-image: url(../img/bg/inner-banner-bg-1-1.jpg);
   }
   
-  .sec-title__main {
+.sec-title__main {
     font-family: "prata";
     color: #fff;
     font-size: 48px;
@@ -36,7 +36,7 @@
     text-align: center;
   } */
   
-  .sec-title__nav {
+.sec-title__nav {
     text-transform: uppercase;
     color: #fff;
     font-size: 13px;
@@ -44,4 +44,55 @@
     text-align: left;
   }
   
-  /*##########################################################################*/
+/*##########################################################################*/
+/* Section About US */
+.sec-aboutus
+.sec-aboutus__divtitle
+.sec-aboutus-divtitle__h5
+.sec-aboutus__divsubtitle
+.sec-aboutus-divsubtitle__h3
+.sec-aboutus__divresume
+.sec-aboutus-divresume__h4
+.sec-aboutus-divresume__p
+.sec-aboutus-divresume__p-link
+.sec-aboutus-divresume-p-link__a
+
+.sec-aboutus__divyear
+.sec-aboutus-divyear__li
+.sec-aboutus-divyear__resume
+.sec-aboutus-divyear__readfull
+
+/*##########################################################################*/
+/* Section Departments */
+.sec-dep
+.sec-dep__divtitle
+.sec-dep-divtitle__h5
+.sec-dep__divsubtitle
+.sec-dep-divsubtitle__h3
+.sec-dep__divlist
+.sec-dep-divlist__li
+
+.sec-dep__divimg
+.sec-dep-divimg__img
+
+/*##########################################################################*/
+/* Section Video */
+
+.sec-video
+.sec-video__img
+
+/*##########################################################################*/
+/* Section Behind */
+
+.sec-behind
+.sec-behind__divtitle
+.sec-behind-divtitle__h5
+.sec-behind__divsubtitle
+.sec-behind-divsubtitle__h3
+
+.sec-behind__divperso
+.sec-behind-divpicperso__img
+.sec-behind-divpicperso__h6
+.sec-behind-divpicperso__p
+.sec-behind-divpicperso__a
+.sec-behind-divpicperso__hr

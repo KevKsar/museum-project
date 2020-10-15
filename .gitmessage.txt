@@ -1,8 +1,8 @@
-content page about
+class creation
 
-- add content of each section:
-    - abous us
-    - departments
-    - video (fake picture only)
-    - behind
-/!\ css class not create next step
+- class create for each sec, div or tag for css in the about.html
+- add all created class in the css files (about-main.css)
+
+to do:
+- prez et positioning (flex probably) by css
+- add header and footer when finish
