@@ -1,0 +1,47 @@
+
+
+@font-face {
+    font-family: "prata";
+    src: url("../fonts/Prata/Prata-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "muli";
+    src: url("../fonts/Multi/Muli-Regular.ttf") format("truetype");
+        
+  }
+  
+
+
+/*##########################################################################*/
+/* Page Title */
+.sec-title {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../img/bg/inner-banner-bg-1-1.jpg);
+  }
+  
+  .sec-title__main {
+    font-family: "prata";
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    font-weight:normal; 
+  }
+  
+  .sec-title__sub {
+    font-family: "muli";
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .sec-title__nav {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    flex: unset;
+    text-align: left;
+  }
+  
+  /*##########################################################################*/
