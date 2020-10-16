@@ -28,13 +28,13 @@
             <div class="info">
                 <h3 class="white">Date & times</h3>
                 <p><i class="far fa-clock"></i> 04 Nov 2019, 10 to 15.00 </p>
-                <hr/>
+                <hr class="info-hr" />
                 <h3 class="white">Location</h3>
                 <p><i class="fas fa-location-arrow"></i> 246 King Street NY 10011</p>
-                <hr/>
+                <hr class="info-hr" />
                 <h3 class="white">Organizer</h3>
                 <p> <i class="fas fa-user-alt"></i> Egypt Historical Museum</p>
-                <hr/>
+                <hr class="info-hr" />
                 <h3 class="white">Ticket Cost</h3>
                 <p><i class="far fa-money-bill-alt"></i> Adults - $15/Childrens - 10$</p>
                 <p class="white">*Free for Museum Members</p>
@@ -42,8 +42,8 @@
             </div>
             <div class="info-image"> <img src="img/1.jpg" alt="Egypte" /></div>
 
-            <div class="book">Online Booking
-                <input id="name" type="name" size="30" maxLength="30" required placeholder="Your name">
+            <div class="book"><h3>Online Booking</h3>
+              <input id="name" type="name" size="30" maxLength="30" required placeholder="Your name">
                 <input id="emailAddress" type="email" size="30" maxLength="30" required placeholder="Email Adress">
                 <input id="number" type="number" size="4" maxLength="4" required placeholder="0">
                 <input id="children" type="children" size="4" maxLength="4" required placeholder="Children">
@@ -67,23 +67,45 @@
 
             <div id="schedule">
                 <h2>Event Schedule</h2>
-                <p>10am - 12pm</p>
-                <h3>Introduction of independent Japanese antiquity</h3>
-                <p>Enjoy a 2 hours express Highlights</p>
-                <p>1pm - 4pm</p>
-                <h3>A curated selection of Japanese antiques</h3>
-                <p>This program will take place in Classroom B</p>
-                <p>4.30pm - 6pm</p>
-                <h3>Know Antiques roadshow appraiser from exper</h3>
-                <p>Owing to te claims of duty or the obligations</p>
+                <div class="grid-schedule">
+                    <div class="first-time">
+                        <p>10am - 12pm</p>
+                    </div>
+                    <div class="first-p">
+                        <h3>Introduction of independent Japanese antiquity</h3>
+                        <p>Enjoy a 2 hours express Highlights</p>
+                    </div>
+                    <div class="second-time">
+                        <p>1pm - 4pm</p>
+                    </div>
+                    <div class="second-p">
+                        <h3>A curated selection of Japanese antiques</h3>
+                        <p>This program will take place in Classroom B</p>
+                    </div>
+                    <div class="third-time">
+                        <p>4.30pm - 6pm</p>
+                    </div>
+                    <div class="third-p">
+                        <h3>Know Antiques roadshow appraiser from exper</h3>
+                        <p>Owing to te claims of duty or the obligations</p>
+                    </div>
+                </div>
             </div>
 
             <div id="gallery">
-                <h2>Gallery</h2>
-                <img src="img/2.jpg" alt="Arabic" />
-                <img src="img/3.jpg" alt="Vikings" />
-                <img src="img/4.jpg" alt="Asia" />
-                <img src="img/5.jpg" alt="Japenese" />
+                <div class="img-title">
+                    <h2>Gallery</h2>
+                </div>
+                <div class="gallery-flex">
+                    <div class="column-left">
+                        <div class="img-left"><img src="img/2.jpg" alt="Arabic" /></div>
+                    </div>
+                    <div class="img-right"><img src="img/3.jpg" alt="Vikings" /></div>
+                    <div class="column-right">
+                        <div class="img-bot"><img src="img/4.jpg" alt="Asia" /></div>
+                    </div>
+                    <div class="img-bot-2"><img src="img/5.jpg" alt="Japenese" /></div>
+                </div>
             </div>
 
             <div id="contact" div class="contact">
@@ -103,14 +125,13 @@
                     width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                     tabindex="0"></iframe>
             </div>
-
-
-
             <div class="section">
-                <p>PREV EVENT
-                <h2>Are there Carbon Monoxide Detectors</h2></p>
-                <p>NEXT EVEN
-                <h2>Are there Carbon Monoxide Detectors</h2></p>
+                <div class="section-1"><p> PREV EVENT
+                <h2>Are there Carbon Monoxide Detectors</h2>
+                </p></div>
+                <div class="section-2"><p>NEXT EVEN
+                <h2>Are there Carbon Monoxide Detectors</h2>
+                </p></div>
             </div>
 
         </main>
@@ -121,8 +142,4 @@
 
 </body>
 
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> c86279865a55ac7aa2ad7b13a3d2668936da02dc
