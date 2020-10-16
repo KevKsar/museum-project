@@ -72,24 +72,24 @@ li a {
 
 .sec-aboutus-divyear__li {
   display: block;
-  background-color: #302e2f;
-  color: #fff;
+  background-color: #f2ebe8;
+  color: #302e2f;
 
   border: none;
   outline: none;
   display: inline-block;
   /* vertical-align: middle; */
-  font-size: 13px;
+  font-size: 16px;
   padding: 12px 52px;
   border-radius: 4px;
   transition: all .4s ease;
 }
-/*
-.sec-form__bt:hover {
+.sec-aboutus-divyear__li:hover {
   background-color: #d99578;
   color: #fff;
 }
-*/
+
+
 /*##########################################################################*/
 /* Section Departments */
 .sec-dep
