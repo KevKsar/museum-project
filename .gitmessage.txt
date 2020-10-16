@@ -1,3 +1,10 @@
-bouton date 
+prez and posistioning about.html
 
-- add css for buton date
+- add flex on section for posistioning:
+    - About us
+    - Departements
+    - Behind
+- add sub flex for positioning inside each section.
+- un-order 2 list column swap to 1 for mobile
+- add some responsive for mobile to check later
+/!\ miss header - footer - prez decoration - mobile (to check)

@@ -1,12 +1,81 @@
-.grid-about {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    height: auto;
+
+/* FLEX section all content of page */   
+.wrapper-about {
+    display: flex;  
+    flex-flow: row wrap;
+    text-align: center;
+  }
+  
+
+  .sec-title    { flex: 1 100%; }
+  .sec-aboutus  { flex: 2 100%; }
+  .sec-dep      { flex: 3 100%; }
+  .sec-video    { flex: 4 100%; }
+  .sec-behind   { flex: 5 100%; }
+
+/*#############################################################*/
+/* FLEX in aboutus section */
+
+.sec-aboutus {
+    display: flex;  
+    flex-flow: row wrap;
+    text-align: left;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+.sec-aboutus__divtitle { flex: 1 100%; }
+.sec-aboutus__divsubtitle { flex: 2 100%; }
+.sec-aboutus__divresume { flex: 3 50%; }
+.sec-aboutus__divyear { flex: 4 50%; }
+
+@media screen and (max-width: 800px) {
+    .sec-aboutus__divtitle { flex: 1 100%;}
+    .sec-aboutus__divsubtitle { flex: 2 100%;}
+    .sec-aboutus__divresume { flex: 3 100%;}
+    .sec-aboutus__divyear { flex: 4 100%; }
 }
 
+/*#############################################################*/
+/* FLEX in Departments section */
 
-.sec-title {
-    grid-column: 1 / 5;
-    grid-row: 1;
+
+.sec-dep {
+    display: flex;  
+    flex-flow: row wrap;
+    text-align: left;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.sec-dep__divtitle      { flex: 1 100%; }
+.sec-dep__divsubtitle   { flex: 2 100%; }
+.sec-dep__divlist       { flex: 3 66vh; text-align: left; }
+.sec-dep__divimg        { flex: 4 33vh; }
+
+@media screen and (max-width: 800px) {
+.sec-dep__divtitle      { flex: 1 100%; }
+.sec-dep__divsubtitle   { flex: 1 100%; }
+.sec-dep__divlist       { flex: 1 100%; text-align: left; }
+.sec-dep__divimg        { flex: 1 100%; }
+}
+
+/*#############################################################*/
+/* FLEX in Behind section */
+
+.sec-behind {
+display: flex;  
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.sec-behind__divtitle       { flex: 1 100%; }
+.sec-behind__divsubtitle    { flex: 2 100%; }
+.sec-behind__divperso       { flex: 3 25%; }
+
+@media screen and (max-width: 800px) {
+    .sec-behind__divtitle       { flex: 1 100%; }
+    .sec-behind__divsubtitle    { flex: 2 100%; }
+    .sec-behind__divperso       { flex: 3 100%; }
 }
