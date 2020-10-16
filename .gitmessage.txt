@@ -1,8 +1,3 @@
-class creation
+bouton date 
 
-- class create for each sec, div or tag for css in the about.html
-- add all created class in the css files (about-main.css)
-
-to do:
-- prez et positioning (flex probably) by css
-- add header and footer when finish
+- add css for buton date
