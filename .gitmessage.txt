@@ -1,8 +1,9 @@
-########50 characters############################
-add hr vertical in Section info contact
-########72 characters##################################################
-- fonctionne verticalement doit etre encore corriger pour version mobile (passe en horizontal)
-- doit refaire position correct pour section info contact.
-# Problem, Task, Reason for CommitSolution
-# Solution or List of ChangesNote
-# Special instructions, testing steps, rake, etc
+modify hr prez
+
+- modify hr prez in css
+- files organisation
+
+/!\ todo modify open hours section for positionning
+/!\ subjet input size
+/!\ miss header - footer - prez decoration - mobile (to check)
+/!\ add some responsive for mobile and tablette
