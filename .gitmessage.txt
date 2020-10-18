@@ -1,9 +1,6 @@
-add prez in about.html
+make README.md
 
-- font type and color section
-- correct hr for prez
-- join css for icon (font awesome)
-- change un-order bullet
+- juste update README.md with info, spect, tech, folder liste and credits
 
 /!\ miss header - footer - prez decoration - mobile (to check)
 /!\ add some responsive for mobile and tablette
