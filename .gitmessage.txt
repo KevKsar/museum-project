@@ -1,10 +1,9 @@
-prez and posistioning about.html
+add prez in about.html
 
-- add flex on section for posistioning:
-    - About us
-    - Departements
-    - Behind
-- add sub flex for positioning inside each section.
-- un-order 2 list column swap to 1 for mobile
-- add some responsive for mobile to check later
+- font type and color section
+- correct hr for prez
+- join css for icon (font awesome)
+- change un-order bullet
+
 /!\ miss header - footer - prez decoration - mobile (to check)
+/!\ add some responsive for mobile and tablette
