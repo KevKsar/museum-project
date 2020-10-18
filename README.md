@@ -11,7 +11,7 @@ trainning project (https://github.com/becodeorg/LIE-Hamilton-4.25/tree/master/01
 - Events -> What's On
 - Events details -> when clicked on an event.
 
-
+___
 ## Technology used and specification
 
 - html.
@@ -30,22 +30,35 @@ trainning project (https://github.com/becodeorg/LIE-Hamilton-4.25/tree/master/01
 - attention SEO
 - site is **BUG FREE**
 
+___
 ## Folder Structure
 
     .
-    ├── img/                         # folder for all pictures
-    ├── css/                         # folder for CSS files
-    ├── fonts/                       # folder for all Fonts
+    ├── img/                        # folder for all pictures
+    │   ├── about
+    │   ├── bg
+    │   └── contact
+    ├── css/                        # folder for CSS files
+    ├── fonts/                      # folder for all Fonts
+    │   ├── Multi 
+    │   └── Prata
     ├── about.html
     ├── contact.html
     ├── detail.html
     ├── detail-event.html
     ├── index.html
-    └── README.md
+    ├── README.md
+    ├── robot.txt                   # for searchengine index SEO
+    └── sitemap.xml                 # sitemap for SEO
 
-
+___
 ## Contributor
-* Carolin JANSEN    @iCarolinei
-* Kevin CASSART     @Roustamkhaydarov
-* Roustam KHAYDAEV  @KevKsar
-* Cedric AUDRIT     @freecey
+
+
+![alt text](https://laughingsquid.com/wp-content/uploads/2019/12/Puppies-on-Treadmill.gif "Team Pictures")
+
+
+* Carolin JANSEN    [@iCarolinei](https://github.com/iCarolinei)
+* Kevin CASSART     [@Roustamkhaydarov](https://github.com/Roustamkhaydarov/)
+* Roustam KHAYDAEV  [@KevKsar](https://github.com/KevKsar/)
+* Cedric AUDRIT     [@freecey](https://github.com/freecey/)
