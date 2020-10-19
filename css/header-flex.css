@@ -25,11 +25,16 @@
 }
 
 /* 1lvl top menu */
-.top-1lvl__plan     { flex: 350px; }
+.top-1lvl__plan     { flex: 300px; }
 .top-1lvl__getdir   { flex: 900px}
-.top-1lvl__social   { flex: 120px; } 
+.top-1lvl__social   { flex: 150px; } 
 .top-1lvl__bt-swich { flex: 200px; }
+/* 1170
 
+
+161
+
+*/
 
 /* 2lvl top menu */
 .top-2lvl__logo     { flex: 1 25%; }
