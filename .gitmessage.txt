@@ -1,9 +1,7 @@
 README update + add sitemap and robot
 
-- SEO help index Seach Engine: 
-    - create a sitemap.xml
-    - create a robot.txt
-- update information README.md
+- ligne section correction size
+
 
 /!\ miss header - footer - prez decoration - mobile (to check)
 /!\ add some responsive for mobile and tablette

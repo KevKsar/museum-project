@@ -51,12 +51,20 @@
   
 /*##########################################################################*/
 /* Section About US */
-.sec-aboutus {}
-.sec-aboutus__divtitle {
+.sec-aboutus {
+  justify-content: center;
+}
+.sec-aboutus__divtitle {}
+
+.sec__lign {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  border-top: 2px solid #d99578;
+  max-width: 10em;
 }
 .sec-aboutus-divtitle__h5 {
   text-align:center;
-  border-top: 2px solid #d99578;
   font-family: "muli";
   color: #a5a5a5;
   text-transform: uppercase;
@@ -135,7 +143,6 @@ color: #302e2f;
 .sec-dep__divtitle {}
 .sec-dep-divtitle__h5 {
   text-align:center;
-  border-top: 2px solid #d99578;
   font-family: "muli";
   color: #a5a5a5;
   text-transform: uppercase;
@@ -156,6 +163,7 @@ color: #302e2f;
   column-count: 2;
   column-width: 50vh;
   list-style-type:none;
+  list-style-position: outside; 
 } 
 @media screen and (max-width: 800px) {
   .sec-dep-divlist__ul {column-count: 1; }
@@ -169,10 +177,13 @@ color: #302e2f;
 
 
 .sec-dep-divlist__li  {
-  text-align: left;
+margin-left: 1em;
+text-align: left;
 padding-bottom: 20px;
 border-bottom: 1px solid #e4e4e4;
 font-size: 7px;
+list-style-position: inside; 
+line-height: 5em ;
 }
 
 .sec-dep_li-text {
@@ -203,7 +214,6 @@ font-size: 16px;
 }
 .sec-behind-divtitle__h5 {
   text-align:center;
-  border-top: 2px solid #d99578;
   font-family: "muli";
   color: #a5a5a5;
   text-transform: uppercase;
