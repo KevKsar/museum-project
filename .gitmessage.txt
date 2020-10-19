@@ -1,9 +1,7 @@
-modify hr prez
+modify open hours section
 
-- modify hr prez in css
-- files organisation
+- modify open hours section for positionning
 
-/!\ todo modify open hours section for positionning
 /!\ subjet input size
 /!\ miss header - footer - prez decoration - mobile (to check)
 /!\ add some responsive for mobile and tablette

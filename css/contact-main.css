@@ -97,6 +97,23 @@
     }
   }
 
+.openhours__day {
+  color: #302e2f;
+  font-family: "muli";
+}
+
+/*
+.sec-contact__ul {
+    list-style-type: none;
+}
+
+.sec-contact__li {}
+
+.sec-contact-li__span {
+
+} */
+
+
 
 /*##########################################################################*/
 /* Section Form */
