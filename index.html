@@ -43,10 +43,16 @@
                 <h3>Online Booking</h3>
                 <input id="name" type="name" required placeholder="Your name">
                 <input id="emailAddress" type="email" size="30" maxLength="30" required placeholder="Email Adress">
-                <input id="number" type="number" size="4" maxLength="4" required placeholder="0">
-                <input id="children" type="children" size="4" maxLength="4" required placeholder="Children">
+                <div>
+                    <div id="btn_minus">-</div>
+                    <input id="number" type="number" size="4" min="0" maxLength="4" required placeholder="0">
+                    <div id="btn_plus">+</div>
+                </div>
+                
+
+                <input id="children" type="number" size="4" min="0" maxLength="4" required placeholder="Children">
                 <textarea id="message" cols="30" rows="6" required placeholder="Description"></textarea>
-                <a href="" target="_blank"><button>PROCEED TO BOOK</button></a>
+                <a href="" target="_blank"><button id="btn_booking">PROCEED TO BOOK</button></a>
             </div>
 
             <div id="about">
