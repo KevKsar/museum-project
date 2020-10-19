@@ -1,0 +1,3 @@
+try positionning collection gallery
+
+- try positionning collection with grid.

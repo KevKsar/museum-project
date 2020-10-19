@@ -430,8 +430,9 @@ position: absolute;
 }
 
 .collection__img-title{
-    color: black;
+    color: rgb(245, 245, 245);
     font-family: muli;
+ 
 }
                 /*####################### grid or flex? ########  */
 .collection__flex{
@@ -439,9 +440,14 @@ position: absolute;
 }
 
 .collection__img-content{
-    display: flex;
+   /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+
+
 }
 
 .img-content__link{
@@ -460,24 +466,67 @@ position: absolute;
     font-size: 3rem;
 }
 
-.collectiion__img-one{
-    width: min-content;
+.collection__img-one{
+    /*width: min-content; */
+    display: grid;
+    grid-template-columns: repeat(2, 165px);
+    grid-template-rows: repeat(3, 1fr);
+
+    width: 350px;
+    height: 100%;
+
+    background-image: url(resources/collections-2-1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
 
 }
 
-.collectiion__img-two{
+.collection_bg1 {
+
+
+    grid-row: 1/ 4;
+    grid-column: 1/ 3;
 }
 
-.collectiion__img-three{
+.collection_img-x__title {
+    grid-row: 3;
+    grid-column: 1;
 }
 
-.collectiion__img-four{
+.collection_img-x__plus {
+    grid-row: 3 ;
+    grid-column: 2 ; /*
+    margin-top: -25px;*/
+    
+    margin-bottom: -100px;/*
+    padding-left: 100px; */
+}
+/*
+.collection__img-content{
+    margin-bottom: -100px; 
+} */
+
+
+.collection__img-two{
+    display: grid;
+    grid-template-columns: repeat(2, 175px);
+    grid-template-rows: 1fr 1fr 1fr 20px;
+    background-image: url(/resources/collections-2-2.jpg);
+    background-repeat: no-repeat;
+    
+    max-width: 350px;
 }
 
-.collectiion__img-five{
+.collection__img-three{
 }
 
-.collectiion__img-six{
+.collection__img-four{
+}
+
+.collection__img-five{
+}
+
+.collection__img-six{
 }
 
 .collection__link{
@@ -707,4 +756,52 @@ position: absolute;
 
 .article__img{
     width: 37rem;
+}
+
+
+
+
+.collection__img-one {
+    display: grid;
+    grid-template-columns: repeat(2, 175px);
+    grid-template-rows: 1fr 1fr 1fr 20px;
+
+    
+    max-width: 350px;
+}
+
+
+.collection_bg1 {
+    background-image: url(../resources/collections-2-1.jpg);
+    background-repeat: no-repeat;
+    grid-column: 1 / 3;
+    grid-row: 1 / span 4;
+}
+
+.collection_img-x__title {
+    grid-column: 1 ;
+    grid-row:  3;
+    color: thistle;
+
+}
+
+.collection_img-x__plus {
+    
+    grid-column: 2 ;
+    grid-row: 4 ;
+    background-image: url(resources/collections-link-decor-1-1.png);
+    height: 25px;
+    justify-self: center;
+
+
+}
+
+.collection__img-content {
+    
+    border-radius: 50%;
+    margin-top: -30px;
+    padding: 10px;
+    
+    /*margin-top: 10px;*/
+
 }
