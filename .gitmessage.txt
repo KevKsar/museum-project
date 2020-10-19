@@ -1,0 +1,10 @@
+fix form + add post
+
+- add post form methode by formspree.io
+- subjet input size set to 50
+- add some responsive for mobile and tablette
+
+
+/!\ miss header - footer - prez decoration - mobile (to check)
+/!\ todo margin after add header/fooer
+/!\ add some responsive for mobile and tablette
