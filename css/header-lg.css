@@ -1,0 +1,48 @@
+
+.dropbtn {
+  background-color: #302e2f;
+  color: #a09a9c;
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #302e2f;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #a09a9c;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #302e2f;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+/*
+<div class="dropdown">
+  <button class="dropbtn">EN</button>
+  <div class="dropdown-content">
+    <a class="dropdown-lg" href="#">FR</a>
+    <a class="dropdown-lg" href="#">DE</a>
+    <a class="dropdown-lg" href="#">JP</a>
+  </div>
+</div>
+*/
