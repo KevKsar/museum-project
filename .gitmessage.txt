@@ -1,7 +1,10 @@
-modify open hours section
+fix form + add post
 
-- modify open hours section for positionning
+- add post form methode by formspree.io
+- subjet input size set to 50
+- add some responsive for mobile and tablette
 
-/!\ subjet input size
+
 /!\ miss header - footer - prez decoration - mobile (to check)
+/!\ todo margin after add header/fooer
 /!\ add some responsive for mobile and tablette

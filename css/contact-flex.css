@@ -48,7 +48,12 @@
   }
 
 @media screen and (max-width: 800px) {
-    
+  .sec-contact__addressblock {
+    width: 100%;
+  }
+  .sec-contact__openhours {
+    width: 100%;
+  }
 }
 
 

@@ -56,7 +56,7 @@
 }
 
 @media screen and (max-width: 800px) {
-  .sec-contact__img { width: 100vh;  }
+  .sec-contact__img { width: 90%;  }
 }
 
 .sec-contact__addressblock {
@@ -92,9 +92,16 @@
   
   @media screen and (max-width: 800px) {
     .sec-contact__hr {
-    width: 100%;
-    height: 1px;
+    height: 0;
+    width: 0;
+    
     }
+    .sec-contact__openhours{
+      border-top: 1px solid #e4e4e4;
+    }
+
+
+
   }
 
 .openhours__day {
@@ -133,7 +140,27 @@
 .sec-form__field-lname {}
 .sec-form__field-phone {}
 .sec-form__field-subject {}
+
+.sec-form-field-subject__input {
+  width: 470px;
+}
 .sec-form__field-message {}
+
+.sec-form-field-msg__input {
+ width: 470px;
+ height: 70px;
+}
+
+@media screen and (max-width: 480px){
+  .sec-form-field-subject__input {
+    width: auto;
+  }
+  .sec-form-field-msg__input {
+   width: auto;
+   height: auto;
+  }
+}
+
 .sec-form__field-bt {}
 
 .sec-form__bt {
