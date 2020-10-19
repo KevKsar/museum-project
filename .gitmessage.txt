@@ -1,7 +1,7 @@
-README update + add sitemap and robot
+MERGE
 
-- ligne section correction size
-
+- ...
 
 /!\ miss header - footer - prez decoration - mobile (to check)
+/!\ todo margin after add header/fooer
 /!\ add some responsive for mobile and tablette
