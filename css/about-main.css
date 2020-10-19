@@ -1,0 +1,261 @@
+
+
+@font-face {
+    font-family: "prata";
+    src: url("../fonts/Prata/Prata-Regular.ttf") format("truetype");
+  }
+@font-face {
+    font-family: "muli";
+    src: url("../fonts/Multi/Muli-Regular.ttf") format("truetype");
+        
+  }
+  
+
+/*##########################################################################*/
+/* contener for all page */
+
+.wrapper-about
+
+
+/*##########################################################################*/
+/* Page Title */
+.sec-title {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../img/bg/inner-banner-bg-1-1.jpg);
+  }
+  
+.sec-title__main {
+    font-family: "prata";
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    font-weight:normal; 
+  }
+  /* No need in about page
+  .sec-title__sub {
+    font-family: "muli";
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+  } */
+  
+.sec-title__nav {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    flex: unset;
+    text-align: left;
+  }
+  
+/*##########################################################################*/
+/* Section About US */
+.sec-aboutus {
+  justify-content: center;
+}
+.sec-aboutus__divtitle {}
+
+.sec__lign {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  border-top: 2px solid #d99578;
+  max-width: 10em;
+}
+.sec-aboutus-divtitle__h5 {
+  text-align:center;
+  font-family: "muli";
+  color: #a5a5a5;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.sec-aboutus__divsubtitle {}
+.sec-aboutus-divsubtitle__h3 {
+  text-align:center;
+  color: #302e2f;
+  font-size: 44px;
+  font-family: "prata";
+}
+.sec-aboutus__divresume {}
+.sec-aboutus-divresume__h4 {
+  font-family: "prata";
+  font-size: 24px;
+color: #302e2f;
+text-transform: none;
+}
+.sec-aboutus-divresume__p {
+  font-family: "muli";
+  color: #777777;
+font-size: 16px;
+}
+.sec-aboutus-divresume__p-link {
+  font-size: 16px;
+color: #302e2f;
+font-family: "prata";
+}
+.sec-aboutus-divresume-p-link__a {}
+
+.sec-aboutus__divyear {}
+.sec-aboutus-divyear__li {
+  font-size: 18px;
+  font-family: "prata";
+}
+.sec-aboutus-divyear__resume {
+  font-family: "muli";
+  color: #777777;
+font-size: 16px;
+}
+.sec-aboutus-divyear__readfull {
+  font-family: "Muli";
+  font-size: 13px;
+text-transform: uppercase;
+color: #302e2f;
+}
+
+
+.sec-aboutus-divyear__li {
+  text-decoration: none;
+} 
+.sec-aboutus-divyear__li {
+  display: block;
+  background-color: #f2ebe8;
+  color: #302e2f;
+
+  border: none;
+  outline: none;
+  display: inline-block;
+  /* vertical-align: middle; */
+  font-size: 16px;
+  padding: 12px 52px;
+  border-radius: 4px;
+  transition: all .4s ease;
+}
+.sec-aboutus-divyear__li:hover {
+  background-color: #d99578;
+  color: #fff;
+}
+
+
+/*##########################################################################*/
+/* Section Departments */
+.sec-dep {}
+.sec-dep__divtitle {}
+.sec-dep-divtitle__h5 {
+  text-align:center;
+  font-family: "muli";
+  color: #a5a5a5;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.sec-dep__divsubtitle {}
+.sec-dep-divsubtitle__h3 {
+  text-align:center;
+  color: #302e2f;
+  font-size: 44px;
+  font-family: "prata";
+}
+.sec-dep__divlist {}
+
+.sec-dep-divlist__ul {
+  -webkit-column-count: 2;  /* Chrome/Opera, Safari */
+  -moz-column-count: 2; /* Mozilla Firefox */
+  column-count: 2;
+  column-width: 50vh;
+  list-style-type:none;
+  list-style-position: outside; 
+} 
+@media screen and (max-width: 800px) {
+  .sec-dep-divlist__ul {column-count: 1; }
+}
+
+
+.fa-square {
+  color: #cec7c4;
+  padding-right: 28px;
+}
+
+
+.sec-dep-divlist__li  {
+margin-left: 1em;
+text-align: left;
+padding-bottom: 20px;
+border-bottom: 1px solid #e4e4e4;
+font-size: 7px;
+list-style-position: inside; 
+line-height: 5em ;
+}
+
+.sec-dep_li-text {
+  font-family: "prata";
+color: #362e2f;
+font-size: 16px;
+}
+
+.sec-dep__divimg {
+  text-align: center;
+}
+@media screen and (max-width: 800px) {
+  .sec-dep__divimg {width: 90%;}
+}
+.sec-dep-divimg__img  {}
+/*##########################################################################*/
+/* Section Video */
+
+.sec-video {}
+.sec-video__img {}
+
+/*##########################################################################*/
+/* Section Behind */
+
+.sec-behind {}
+.sec-behind__divtitle {
+  text-align:center;
+}
+.sec-behind-divtitle__h5 {
+  text-align:center;
+  font-family: "muli";
+  color: #a5a5a5;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.sec-behind__divsubtitle {
+  text-align:center;
+}
+.sec-behind-divsubtitle__h3 {
+  text-align:center;
+  color: #302e2f;
+  font-size: 44px;
+  font-family: "prata";
+}
+
+.sec-behind__divperso {
+  text-align:center;
+}
+.sec-behind-divpicperso__img {}
+.sec-behind-divpicperso__h6 {
+  font-family: "prata";
+  font-size: 20px;
+color: #302e2f;
+text-transform: none;
+}
+.sec-behind-divpicperso__p {
+  font-family: "Muli";
+  font-size: 16px;
+color: #777777;
+
+}
+.sec-behind-divpicperso__a {
+  
+  font-family: "Muli";
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #777777;
+}
+
+
+.sec-behind-divpicperso__hr {
+  border: 1px solid #e4e4e4;
+  width:270px;
+}
