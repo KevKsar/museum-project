@@ -1,0 +1,76 @@
+
+/* ALL TOP SECTION */
+
+.top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.top__1lvl {
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex: 1 100%;
+    height: 55px;
+
+}
+.top__2lvl {
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex: 1 100%;
+    height: 90px;
+}
+
+/* 1lvl top menu */
+.top-1lvl__plan     { flex: 350px; }
+.top-1lvl__getdir   { flex: 900px}
+.top-1lvl__social   { flex: 120px; } 
+.top-1lvl__bt-swich { flex: 200px; }
+
+
+/* 2lvl top menu */
+.top-2lvl__logo     { flex: 1 25%; }
+.top-2lvl__menu     { flex: 1 70%; }
+.top-2lvl__burger   { align-self: flex-auto;}
+
+/* menu ul flex */
+
+.top-2lvl-menu__ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 7; 
+    
+}
+
+/* flex for search language and tickets bn*/
+
+.top-1lvl__bt-swich {
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    align-self: baseline
+}
+
+
+/* fex for Plan yyour visite Today */
+
+.top-1lvl__plan {
+        height: 51px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: baseline;
+        align-items: center;
+
+}

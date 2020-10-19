@@ -1,0 +1,146 @@
+
+@font-face {
+    font-family: "prata";
+    src: url("../fonts/Prata/Prata-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "muli";
+    src: url("../fonts/Muli/Muli-Regular.ttf") format("truetype");   
+  }
+
+/* TOP ALL SECTION */
+
+.top {
+    background-color: #302e2f;
+}
+
+
+.top__icon{
+    text-decoration: none;
+    color: #a09a9c;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.top__icon2 {
+    text-decoration: none;
+    color: #a09a9c;
+    font-size: 200%;
+    padding-right: 20px;
+
+}
+.top__icon-col2
+{
+    color: #d99578;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*
+font-family: "Muli";
+min
+11px
+nav1
+16px
+
+nav2
+17px
+*/
+
+/* TOP nav 1 level */
+
+.top__1lvl {
+    
+    color: #a09a9c;
+    font-family: "muli";
+}
+.top-1lvl__plan {
+    padding-right: 20px;
+    border-right:  #a09a9c inset 1px;
+}
+
+.top-1lvl__text{
+    font-size: 16px;
+    font-family: "muli";
+}
+.top-1lvl-text__hours {
+    padding-left: 10px;
+}
+
+
+.top-1lvl-text__minutes {
+    font-size: 11px;
+    padding-right: 10px;
+    margin-top: -10px;
+}
+.top-1lvl-text__minibar {
+    color: #d99578;
+}
+
+
+.top-1lvl__getdir {
+    margin-left: 20px;
+    
+}
+.top-1lvl-getdir__a {
+    text-decoration: none;
+}
+.top-1lvl-getdir__img {}
+
+
+
+.top-1lvl__social {}
+.top-1lvl__bt-swich {
+    padding-left: 20px;
+    border-left:  #a09a9c inset 1px;
+    
+}
+
+.top-1lvl-bt-swich__div-border {
+    height: 20px;
+    background-color: #302e2f;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #a09a9c;
+    text-transform: uppercase;
+    padding: 10px 5px;
+    border-radius: 4px;
+    transition: all .4s ease;
+    margin-right: 10px;
+    border: #a09a9c solid 1px ;
+    justify-content: center;
+}
+
+
+.top-1lvl-bt-swich__lang {
+    padding-left: 20px;
+    padding-right: 20px;}
+.top-1lvl-bt-swich__bt-ticket {
+    height: 20px;
+    background-color: #d99578;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 50px;
+    border-radius: 4px;
+    transition: all .4s ease;
+}
+
+/* TOP NAV 2 level */
+
+.top__2lvl {
+    padding-left: 20px;
+    border-top: #a09a9c inset 1px;
+
+    align-items: center;
+}
+.top-2lvl__logo {}
+.top-2lvl__menu {
+    color: #ffffff;
+}
+.top-2lvl-menu__ul {}
+.top-2lvl-menu__li {}
+.top-2lvl__burger {}
