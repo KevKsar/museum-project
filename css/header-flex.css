@@ -69,8 +69,7 @@
         height: 51px;
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
+        flex-wrap: nowrap !important;
         justify-content: baseline;
         align-items: center;
-
 }
