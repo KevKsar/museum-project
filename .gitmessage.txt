@@ -1,6 +1,5 @@
-mobile version
+css files move
 
-- a media for mobile for menu prez and disable some section
-- burger menu done with overlay work but ugly
+- move all css files for header/footer to css/header-footer/ directory + modify link url to css in html
 
 /!\ add a tag for href link on menu.
