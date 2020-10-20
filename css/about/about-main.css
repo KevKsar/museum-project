@@ -52,6 +52,7 @@
 /*##########################################################################*/
 /* Section About US */
 .sec-aboutus {
+  padding-top: 6em;
   justify-content: center;
 }
 .sec-aboutus__divtitle {}
@@ -139,7 +140,9 @@ color: #302e2f;
 
 /*##########################################################################*/
 /* Section Departments */
-.sec-dep {}
+.sec-dep {
+  padding-top: 6em;
+}
 .sec-dep__divtitle {}
 .sec-dep-divtitle__h5 {
   text-align:center;
@@ -222,7 +225,9 @@ font-size: 16px;
 /*##########################################################################*/
 /* Section Video */
 
-.sec-video {}
+.sec-video {
+  padding-top: 6em;
+}
 
 .sec-video__img {}
 
@@ -236,7 +241,9 @@ height: 90%;
 /*##########################################################################*/
 /* Section Behind */
 
-.sec-behind {}
+.sec-behind {
+  padding-top: 6em;
+}
 .sec-behind__divtitle {
   text-align:center;
 }
@@ -259,6 +266,7 @@ height: 90%;
 }
 
 .sec-behind__divperso {
+  padding-top: 3em;
   text-align:center;
 }
 .sec-behind-divpicperso__img {

@@ -23,6 +23,7 @@ ___
     * tablet version (768px width)
     * mobile version (320px widht )
 
+(try to)
 - keep the design.
 - BEM methodology (for class naming)
 - respond to the [w3c validator](https://validator.w3.org/)
@@ -44,6 +45,7 @@ ___
     ├── fonts/                      # folder for all Fonts
     │   ├── Multi 
     │   └── Prata
+    ├── js/                         # folder for all javascript files
     ├── about.html
     ├── contact.html
     ├── detail.html

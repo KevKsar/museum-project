@@ -1,13 +1,12 @@
-responsive + animation about
+js in about + animation + margin
 
-- preview video on about add responsive. (about.html)
-- add image on image jobs/carrer + link. (about.html)
-- add animation on picture staff. (border, image effect) (about.html)
-- add animation on jobs picture (zoom) (about.html)
-- add animation on video play button (rotated) (about.html)
-
+- remove js code in about.html and put in a about.js (add link external file)
+- update README.md (new folder js)
+- add animation on other venues (on contact.html)
+- add some space/margin/padding (on contact.html)
+- add some space/margin/padding (on about.html)
 
 /!\ miss header - footer
-/!\ todo margin after add header/footer
+/!\ recheck margin after add header/footer
 /!\ recheck responsive for mobile and tablette
-/!\ minor prez decoration
+/!\ recheck prez decoration
