@@ -2,6 +2,7 @@ user-agent: *
 Disallow: /css/
 Disallow: /fonts/
 Disallow: /img/
+Disallow: /files/
 Disallow: README.md
 
 #SITEMAP

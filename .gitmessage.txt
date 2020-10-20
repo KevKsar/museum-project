@@ -1,7 +1,9 @@
-add video
+add pdf
 
-- add overlay for the video to play
-- add play icon on video image
+- add PDF file for download
+- update README.md
+- update robot.txt (for files folder)
+
 
 /!\ miss header - footer - prez decoration
 /!\ todo margin after add header/fooer

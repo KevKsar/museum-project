@@ -16,6 +16,7 @@ ___
 
 - html.
 - css.
+- js (only for overlay video)
 
 - responsive design:
     * desktop version
@@ -39,6 +40,7 @@ ___
     │   ├── bg
     │   └── contact
     ├── css/                        # folder for CSS files
+    ├── files/                      # folder for PDF files and other (soon)
     ├── fonts/                      # folder for all Fonts
     │   ├── Multi 
     │   └── Prata
