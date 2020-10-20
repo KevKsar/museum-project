@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: "prata";
-    src: url("../fonts/Prata/Prata-Regular.ttf") format("truetype");
+    src: url("../../fonts/Prata/Prata-Regular.ttf") format("truetype");
   }
 @font-face {
     font-family: "muli";
-    src: url("../fonts/Multi/Muli-Regular.ttf") format("truetype");
+    src: url("../../fonts/Multi/Muli-Regular.ttf") format("truetype");
         
   }
   
@@ -23,7 +23,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-image: url(../img/bg/inner-banner-bg-1-1.jpg);
+    background-image: url(../../img/bg/inner-banner-bg-1-1.jpg);
   }
   
 .sec-title__main {
