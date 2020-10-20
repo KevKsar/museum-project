@@ -228,3 +228,16 @@ nav2
     background-color: #d99578;
     color: #fff;
   }
+
+.bt-ticket{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.bt-ticket:hover {
+    background-color: #302e2f;
+    margin-top: 20px;
+color: #fff;
+
+    border-radius: 4px;
+}

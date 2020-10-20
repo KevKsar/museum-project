@@ -1,9 +1,20 @@
-footer form fix + some link
+fixe some link 
 
-- add a working post form methode
-- add link working link on social
-- add correct link on about
-- add link in menu
-- add animation button
+list all link:
+Homepage -> Home                                index.html
+about -> The Museum                             about.html
+Contact -> Visit                                contact.html
+Events -> What's On                             events.html
+Events details -> when clicked on an event.     event-details.html
 
-/!\ create id contact.html#map
+tag:
+contact.html#map
+index.html#collection
+event-details.html#ticket
+event-details.html#event
+
+/!\ TODO
+create html tag id 
+contact.html#map
+index.html#collection
+event-details.html#ticket
