@@ -1,6 +1,6 @@
-MERGE
+remove double files
 
-- ...
+- remove double files
 
 /!\ miss header - footer - prez decoration - mobile (to check)
 /!\ todo margin after add header/fooer
