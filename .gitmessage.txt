@@ -1,7 +1,9 @@
 files organisation
 
-- move css files to a folder + correction link
+- correct css link in html files
+- add missing img due to the merge.
 
-/!\ miss header - footer - prez decoration - mobile (to check)
+/!\ miss header - footer - prez decoration
 /!\ todo margin after add header/fooer
 /!\ add some responsive for mobile and tablette
+/!\ minor prez decoration
