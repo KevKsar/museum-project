@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="css/header-grid.css">
     <link rel="stylesheet" href="css/burger.css">
     <link rel="stylesheet" href="css/header-lg.css">
+    <link rel="stylesheet" href="css/overlay.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/burgermenu.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -80,7 +82,7 @@
             <div class="top-2lvl__logo">
                 <img src="img/header/light-logo.png" alt="Museum Logo">
             </div>
-            <div class="top-2lvl__menu ">
+            <div class="top-2lvl__menu">
                 <ul class="top-2lvl-menu__ul">
                     <li class="top-2lvl-menu__li">Home</li>
                     <li class="top-2lvl-menu__li">The Museum</li>
@@ -91,10 +93,25 @@
                     <li class="top-2lvl-menu__li"><a href="#" class="fa fa-shopping-cart top__icon2"></a></li>
                 </ul>
             </div>
-            <div class="top-2lvl__burger" onclick="myFunction(this)">
+            <div class="top-2lvl__burger" onclick="on()">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
+
+                <div id="overlay" class="mobile-menu" onclick="off()">
+                    <div id="overlaytext div-menu-ol">
+                        <ul class="top-2lvl-menu__ul-ol">
+                            <li class="top-2lvl-menu__li burger-text">Home</li>
+                            <li class="top-2lvl-menu__li">The Museum</li>
+                            <li class="top-2lvl-menu__li">Visit</li>
+                            <li class="top-2lvl-menu__li">What's On</li>
+                            <li class="top-2lvl-menu__li">Collections</li>
+                            <li class="top-2lvl-menu__li">Pages</li>
+                            <li class="top-2lvl-menu__li"><a href="#" class="fa fa-shopping-cart top__icon2">Shop</a></li>
+                            <li id="overlay" class="top-2lvl-menu__li" onclick="on()"></li><a href="./">Close Menu</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
         </div>

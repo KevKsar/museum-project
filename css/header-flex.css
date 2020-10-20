@@ -29,12 +29,6 @@
 .top-1lvl__getdir   { flex: 900px}
 .top-1lvl__social   { flex: 150px; } 
 .top-1lvl__bt-swich { flex: 200px; }
-/* 1170
-
-
-161
-
-*/
 
 /* 2lvl top menu */
 .top-2lvl__logo     { flex: 1 25%; }
@@ -49,9 +43,14 @@
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    flex-grow: 7; 
-    
+    flex-grow: 7;    
 }
+
+
+
+
+
+
 
 /* flex for search language and tickets bn*/
 
@@ -77,4 +76,27 @@
         flex-wrap: nowrap !important;
         justify-content: baseline;
         align-items: center;
+}
+
+
+
+@media only screen and (max-width: 800px)  {
+    .top__1lvl {
+        display: flex ;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-self: center;
+        flex: 1 100%;
+        height: 55px;
+        padding-bottom: 2em;
+    }
+    .top-1lvl__plan   { flex: 1 100%; justify-content: center;}
+    .top-1lvl__getdir { flex: 2 100%; justify-content: center; border-top:  #a09a9c inset 1px; padding-top: 1em; margin-top: -0.25em; justify-self: center;} 
+    .top-2lvl__logo   { flex: 1 85%; border-right:  #a09a9c inset 1px; }
+    .top-2lvl__burger   { flex: 1 15%; justify-content: center; padding-left: 2em ;padding-right: 1em;}
+
+    .top-1lvl__social   { display: none; } 
+    .top-1lvl__bt-swich { display: none; }
+    .top-2lvl__menu     { display: none; }
 }

@@ -1,3 +1,6 @@
-minor fix
+mobile version
 
-header and footer - try
+- a media for mobile for menu prez and disable some section
+- burger menu done with overlay work but ugly
+
+/!\ add a tag for href link on menu.

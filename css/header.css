@@ -144,3 +144,24 @@ nav2
 .top-2lvl-menu__ul {}
 .top-2lvl-menu__li {}
 .top-2lvl__burger {}
+
+.top-2lvl-menu__ul-ol {
+    color: #ffffff;
+    font-size: 2em;
+    /*list-style-type: none; */
+    margin: auto;
+    
+    
+    
+}
+
+
+.div-menu-ol{}
+
+
+.top-2lvl-menu__li-burger {}
+.div-menu-ol {}
+
+@media only screen and (max-width: 800px)  {
+    .top-2lvl__menu {}
+}
