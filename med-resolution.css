@@ -13,12 +13,14 @@ html{
    }
 
 
+@media screen and (max-width: 768px){
+
 /* SECTION 1 SLIDER */
 
 .slider{
     background-image: url(resources/slider-1-3.jpg);
-    background-size: cover;
-    height: 70rem;
+    background-size: 100vh;
+    height: 80rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -29,7 +31,10 @@ html{
 .slider__heading-one{
     font-family: 'muli';
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 1.5rem;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-transform: uppercase;
 }
 
@@ -38,7 +43,7 @@ html{
     color: white;
     font-size: 5rem;
     font-weight: normal;
-    width: 90rem;
+    width: 70rem;
     text-align: center;
 }
 
@@ -75,16 +80,18 @@ transition: background-color 0.5s, color 0.5s, transform 0.3s;
 
 /*SECTION 2 ABOUT US*/
 .about-us{
-    display: flex;
+    display: flex;    
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 60rem;
     padding: 5rem;
+    margin-top: 4rem;
 }
 
 .about-us__left{
     text-align: left;
-    width: 50rem;
+    width: 65rem;
     height: 50rem;
 }
 
@@ -139,7 +146,7 @@ transition: background-color 0.5s, color 0.5s, transform 0.3s;
     width: 50rem;
     height: 50rem;
     position: relative;
-    margin-left: 10rem;
+    right: 5rem;
 }
 
 .about-us__img-one{
@@ -201,9 +208,12 @@ transition: background-color 0.5s, color 0.5s, transform 0.3s;
 
 /*SECTION 3 EXHIBITION*/
 .exhibition{
-    background-color: #302e2f;
+    background-color: #302e2f;    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     padding: 5rem;
+    margin-top: 30rem;
 }
 
 .heading-one--white{
@@ -216,6 +226,8 @@ transition: background-color 0.5s, color 0.5s, transform 0.3s;
 .exhibition__flex{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .exhibition__block{
@@ -223,6 +235,11 @@ transition: background-color 0.5s, color 0.5s, transform 0.3s;
     text-align: left;
     width: min-content
 }
+
+.exhib-block__img{
+    width: 65rem;
+}
+
 
 .exhib-block__block-title{
     color: #d99578;
@@ -277,14 +294,13 @@ transition: background-color 0.5s, color 0.5s, transform 0.3s;
 
 /*SECTION 4 EVENTS*/
 .events{
-    background-image: url(/resources/event-bg-1-1.jpg);
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: left;
     background-color:  #f2ebe8;
+    background-image: url(/resources/event-bg-1-1.jpg);
+    background-repeat: repeat;
+    background-position: center;
     padding: 5rem;
     display: flex;
-    justify-content:center
+    flex-direction: column;
 }
 
 .events__prog{
@@ -381,10 +397,8 @@ transition: background-color 0.5s, color 0.5s, transform 0.3s;
 .events__current{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     position: relative;
-    left: 30px;
+    right: 9rem;
 }
 
 .events__event-block{
@@ -482,29 +496,27 @@ margin-bottom: 3rem;
 /*SECTION 5 MEMBER*/
 
 .member{
+    height: 90rem;
     background-image: linear-gradient(0.25turn, #302e2fc4 ,#d99578), url(/resources/video-bg-1-1.jpg);
-    background-position: bottom;
-    height: 50rem;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     padding: 5rem;
+    align-items: flex-start;
 }
 
 .member__img{
-    width: 90%;
-    padding-top: 4rem;
+   width: 67rem;
+   padding-top: 5rem
 }
 
 .member__block-two{
-    width: max-content;
+    width: ;
 }
 
 .member__list{
-    position: relative;
-    right: 5rem;
+
 }
 
-                /*################ move the  list #####################*/
 .member__l-item{
     list-style-type: none;
     font-size: 1.8rem;
@@ -521,7 +533,6 @@ margin-bottom: 3rem;
     top: 4px;
     margin-right: 5px;
 }
-                /*################ adjust link #####################*/
 
 .member__link{
     color: black;
@@ -543,13 +554,7 @@ margin-bottom: 3rem;
 
 /*SECTION 6 COLLECTION*/
 .collections{
-padding: 5rem;
-padding-top: 10rem;
-text-align: center;
-display:flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    height: max-content;
 }
 
 .collection__img-title{
@@ -597,17 +602,17 @@ align-items: center;
 .collection__flex{
     width: fit-content;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
     gap: 45px 25px;
     grid-template-areas:
-    "a b c"
-    "a b c"
-    "a b e"
-    "d b e"
-    "d f f"
-    "d f f"
-    "d f f";
+    "a  b"
+    "a  b"
+    "c  b"
+    "d  e"
+    "d  e"
+    "d  f";
+     
 }
 
 
@@ -642,6 +647,7 @@ align-items: center;
     width: fit-content;
     height: 22.8rem;
     position: relative;
+    top: 1rem;
     box-shadow: 15px 15px 1px#f2ebe8;
     transition: box-shadow 0.5s;}
 
@@ -655,6 +661,7 @@ align-items: center;
     height: 53.8rem;
     margin-top: -55px;
     position: relative;
+    top: 7rem;
     box-shadow: 15px 15px 1px#f2ebe8;
     transition: box-shadow 0.5s;}
 
@@ -668,6 +675,7 @@ align-items: center;
     width: fit-content;
     height: 22.8rem;
     position: relative;
+    bottom: 5rem;
     box-shadow: 15px 15px 1px#f2ebe8;
     transition: box-shadow 0.5s;}
 
@@ -679,13 +687,19 @@ align-items: center;
 .collection__img-six{
     grid-area: f;
     width: fit-content;
-    height: 32.8rem;
     position: relative;
+    bottom: 7rem;
     box-shadow: 15px 15px 1px#f2ebe8;
-    transition: box-shadow 0.5s;}
+    transition: box-shadow 0.5s;
+    height: 15.5rem;
+}
 
 .collection__img-six:hover{
     box-shadow: 0px 0px 0px#f2ebe8;
+}
+
+.collection__img--cut-six{
+    width: 35rem;
 }
 
 
@@ -715,7 +729,12 @@ align-items: center;
     background-color: #302e2f;
     padding: 5rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.facts__fact{
+    display: flex;
 }
 
 .fact__icons{
@@ -832,23 +851,32 @@ align-items: center;
 
 .news-blog__flex{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .news-blog__article{
     background-color: white;
     width: min-content;
-    margin: 2rem;
+
+}
+
+.article__img{
+    width: 31rem;
+}
+
+.article-mid__img{
+    width: 31rem;
 }
 
 .article-mid__quote{
     background-color: #d99578;
-    width: 37rem;
+    width: 31rem;
     margin-bottom: 2rem;
     font-family: prata;
     font-weight: normal;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -859,6 +887,7 @@ align-items: center;
 
 .news-blog__article-mid{
     width: min-content;
+    margin-top: 3rem;
 }
 
 .news-blog__article-mid-two{
@@ -950,6 +979,12 @@ align-items: center;
     margin: 4rem 2rem;
 }
 
-.article__img{
-    width: 37rem;
+.quote__text{
+    width: 30rem;
 }
+
+
+
+}
+
+
