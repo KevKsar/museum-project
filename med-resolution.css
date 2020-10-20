@@ -101,7 +101,7 @@ transition: background-color 0.5s, color 0.5s, transform 0.3s;
     font-family: 'muli';
     font-weight: normal;
     border-top: 3px solid #d99578;
-    display: inline-block;
+    display: inline;
     padding-top: 2rem;
 }
  .heading-one{
@@ -153,6 +153,7 @@ transition: background-color 0.5s, color 0.5s, transform 0.3s;
     position: absolute;
     top: 10rem;
     right: 13em;
+    z-index: 1;
 
 }
 
@@ -160,6 +161,7 @@ transition: background-color 0.5s, color 0.5s, transform 0.3s;
     position: absolute;
     top: 20rem;
     left: 20rem;
+    z-index: 3;
 }
 
 .about-us__square{
@@ -181,6 +183,7 @@ transition: background-color 0.5s, color 0.5s, transform 0.3s;
     justify-content: space-evenly;
     align-items: flex-start;
     position: relative;
+    z-index: 2;
 }
 
 .frame__text{
@@ -209,11 +212,10 @@ transition: background-color 0.5s, color 0.5s, transform 0.3s;
 /*SECTION 3 EXHIBITION*/
 .exhibition{
     background-color: #302e2f;    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
     padding: 5rem;
     margin-top: 30rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .heading-one--white{
@@ -225,9 +227,8 @@ transition: background-color 0.5s, color 0.5s, transform 0.3s;
 
 .exhibition__flex{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+
 }
 
 .exhibition__block{
@@ -261,8 +262,49 @@ transition: background-color 0.5s, color 0.5s, transform 0.3s;
 }
 
 .exhib-block__date{
-    
+    width: 28rem;
 }
+
+.exhib__arrow-elem{
+    position: relative;
+    top: 18px;
+}
+.exhib__arrow-elem::after{
+    border-right: 1px solid  #bdbdbd;
+    border-top: 1px solid  #bdbdbd;
+    content: "_____________";
+    color: rgba(255, 255, 255, 0);  
+    font-size: 2.5rem;
+}
+
+.exhib__arrow-elem-two{
+    position: relative;
+    bottom: 9px;
+    right: 3px;
+}
+.exhib__arrow-elem-two::after{
+    border-bottom: 2px solid  #d99578;
+    content: "_______";
+    color: rgba(255, 255, 255, 0);
+}
+
+.exhib__arrow-elem-three{
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+}
+.exhib__arrow-elem-three::after{
+    border-bottom: 1px solid   #bdbdbd;
+    content: "________";
+    color: rgba(255, 255, 255, 0); 
+}
+
+.exhib__arrow-elem-four{
+   position: relative;
+   left: 5px;
+}
+
+
 
 .exhib-block__date-one{
     text-align: left;
@@ -271,6 +313,7 @@ transition: background-color 0.5s, color 0.5s, transform 0.3s;
 .exhib-block__date-two{
     text-align: center;
 }
+
 
 .exhib-block__link{
     color: white;
@@ -398,7 +441,8 @@ transition: background-color 0.5s, color 0.5s, transform 0.3s;
     display: flex;
     flex-direction: column;
     position: relative;
-    right: 9rem;
+    left: -2rem;
+    margin-top: 8rem;
 }
 
 .events__event-block{
@@ -463,6 +507,8 @@ margin-bottom: 3rem;
 .current-details__block-link{
     display: flex;
     align-items: center;
+    position: relative;
+    bottom: 4rem;
 }
 
 .current-details__link{
@@ -507,14 +553,6 @@ margin-bottom: 3rem;
 .member__img{
    width: 67rem;
    padding-top: 5rem
-}
-
-.member__block-two{
-    width: ;
-}
-
-.member__list{
-
 }
 
 .member__l-item{
@@ -706,6 +744,8 @@ margin-bottom: 3rem;
 .collections__link{
     text-decoration: none;
     color: #302e2f;
+    position: relative;
+    left: 13rem;
 }
 
 .collections__link::after{
@@ -733,9 +773,6 @@ margin-bottom: 3rem;
     flex-wrap: wrap;
 }
 
-.facts__fact{
-    display: flex;
-}
 
 .fact__icons{
     width: 7rem;
@@ -760,6 +797,7 @@ margin-bottom: 3rem;
     font-size: 1.6rem;
     margin-left: 1rem;
     margin-top: 0;
+    width: 20rem;
 }
 
 /*SECTION 8 TESTIMONIAL*/
@@ -881,13 +919,16 @@ margin-bottom: 3rem;
     display: flex;
     flex-direction: column;
     color: white;
-    padding: 6.5rem 0rem;
+    padding: 5.2rem 0rem;
+    
 }
 
 
 .news-blog__article-mid{
     width: min-content;
     margin-top: 3rem;
+    position: relative;
+    bottom: 1.4rem;
 }
 
 .news-blog__article-mid-two{
@@ -901,11 +942,6 @@ margin-bottom: 3rem;
     font-size: 1.5rem;
     text-decoration: none;
     margin-top: 3rem;
-}
-
-
-.quote__icon{
-    
 }
 
 .article__block-title{
@@ -983,8 +1019,4 @@ margin-bottom: 3rem;
     width: 30rem;
 }
 
-
-
 }
-
-
