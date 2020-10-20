@@ -1,16 +1,16 @@
 
 @font-face {
     font-family: "prata";
-    src: url("../fonts/Prata/Prata-Regular.ttf") format("truetype");
+    src: url("../../fonts/Prata/Prata-Regular.ttf") format("truetype");
 }
 @font-face {
     font-family: "muli";
-    src: url("../fonts/Muli/Muli-Regular.ttf") format("truetype");   
+    src: url("../../fonts/Muli/Muli-Regular.ttf") format("truetype");   
 }
 
 
 .site_footer {
-    background-image: url(../img/bg/footer-bg-1-1.jpg);
+    background-image: url(../../img/bg/footer-bg-1-1.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,14 +73,14 @@
     border: none;
     color: #777777;
     font-size: 16px;
+    width: 100%;
 }
 
 .site-footer__submit {
     margin-top: -3px;
-    height: 40px;
+    height: 38px;
 
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 20px;
-    
+    padding-top: 20px;   
 }

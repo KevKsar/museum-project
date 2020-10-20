@@ -1,6 +1,9 @@
-improve menu burger
+footer form fix + some link
 
-- fix prez of burger menu with overlay on right only
-- fix close menu bug
+- add a working post form methode
+- add link working link on social
+- add correct link on about
+- add link in menu
+- add animation button
 
-/!\ add a tag for href link on menu.
+/!\ create id contact.html#map

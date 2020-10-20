@@ -204,3 +204,27 @@ nav2
     /*font-size: 200%;
     padding-right: 20px;*/
 }
+
+.menu-link{
+    list-style-type: none;
+    background-color: #302e2f;
+    margin-top: 20px;
+
+    border: none;
+    outline: none;
+    /*display: inline-block;
+    vertical-align: middle;*/
+    /*font-size: 13px;*/
+    
+    padding: 12px 52px;
+    border-radius: 4px;
+    transition: all .4s ease;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu-link:hover {
+    background-color: #d99578;
+    color: #fff;
+  }
