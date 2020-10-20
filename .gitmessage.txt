@@ -1,11 +1,13 @@
-add pdf
+responsive + animation about
 
-- add PDF file for download
-- update README.md
-- update robot.txt (for files folder)
+- preview video on about add responsive. (about.html)
+- add image on image jobs/carrer + link. (about.html)
+- add animation on picture staff. (border, image effect) (about.html)
+- add animation on jobs picture (zoom) (about.html)
+- add animation on video play button (rotated) (about.html)
 
 
-/!\ miss header - footer - prez decoration
-/!\ todo margin after add header/fooer
-/!\ add some responsive for mobile and tablette
+/!\ miss header - footer
+/!\ todo margin after add header/footer
+/!\ recheck responsive for mobile and tablette
 /!\ minor prez decoration

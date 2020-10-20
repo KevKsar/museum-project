@@ -29,13 +29,20 @@
     height: 100px;
     width: 100px;
     top: 45%;
-    left: 47%;
     right: 47%;
     /*
     background-size: 100px 100px;
     background-repeat: no-repeat;*/
+    transition: 2s ease;
   }
 
   .sec-video__posi-play {
     position: relative;
+
   } 
+
+  .video-play:hover {
+  transform: rotate(720deg);
+  height: 120px;
+  width: 120px;
+}
