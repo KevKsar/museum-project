@@ -1,7 +1,7 @@
-files organisation
+add video
 
-- correct css link in html files
-- add missing img due to the merge.
+- add overlay for the video to play
+- add play icon on video image
 
 /!\ miss header - footer - prez decoration
 /!\ todo margin after add header/fooer

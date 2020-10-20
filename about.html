@@ -9,7 +9,17 @@
         <link rel="stylesheet" href="css/about/about-main.css">
         <link rel="stylesheet" href="css/about/about-flex.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/about/video.css">
 
+        <script>
+            function on() {
+              document.getElementById("overlay").style.display = "block";
+            }
+            
+            function off() {
+              document.getElementById("overlay").style.display = "none";
+            }
+        </script>
 
     </head>
 
@@ -86,8 +96,14 @@
             </section>
 
             <section class="sec-video">
-                <div>
-                    <img class="sec-video__img" src="img/about/video-2-1.jpg" alt="Great Art and Great Experiences, Since 1969">
+                <div class="sec-video__posi-play">
+                    <div id="overlay" onclick="off()">
+                        <div id="overlaytext"><!--Overlay -->
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/j6PbonHsqW0?wmode=opaque" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                      </div>
+                      <input class="sec-video__img" type="image" src="img/about/video-2-1.jpg" alt="Play Now" onclick="on()">
+                    <!--<img class="sec-video__img" src="img/about/video-2-1.jpg" alt="Great Art and Great Experiences, Since 1969">-->
+                    <img src="img/about/play-btn.png" class="video-play" onclick="on()" ></img>
                 </div>
             </section>
 
