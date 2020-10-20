@@ -1,5 +1,6 @@
-css files move
+improve menu burger
 
-- move all css files for header/footer to css/header-footer/ directory + modify link url to css in html
+- fix prez of burger menu with overlay on right only
+- fix close menu bug
 
 /!\ add a tag for href link on menu.
