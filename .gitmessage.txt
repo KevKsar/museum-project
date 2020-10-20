@@ -1,3 +1,5 @@
-Creation of Header - footer
+try fix header size
 
-1st try, correction needed for posistion and page margin
+try to fixe social section size
+
+need prositionning correction + prez correction
