@@ -3,14 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="med-resolution.css">
     <link rel="stylesheet" media="screen and (max-width: 400px)" href="small-resolution.css">
-    <title>Egypt Historical Museum</title>
+    <title>home</title>
 </head>
 
 <body>
+    <!-- ----------------Header---------------- -->
+    <section class="container">
+
+        <section class="topbar__left">
+            
+          <div class="clock clock--animation">
+            <span href="#"><i class="far fa-clock"></i></span>
+          </div>
+          
+          <div class="visit">
+              <span href="#">Plan Your Visit Today :</span>
+              <span class="hour">9</span><span class="minute">00</span>
+              <span class="line"></span>
+              <span class="hour">7</span><span class="minute">00</span>
+          </div>
+          
+          <div class="direction"><i class="fa fa-map"><span>Get Direction</span></i></div>
+  
+        </section>
+        
+        <div class="topbar__mid"></div>
+        
+        <section class="topbar__right">
+          
+          <div class="social">
+            <div class="social__logo social--animation">
+              <a href="https://www.facebook.com/cardiffonline1/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/cardiffonline"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/cardiffmuseumdrawing/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.youtube.com/channel/UCE5QyTQXebPSK8Zcq_xTwUg "><i class="fab fa-youtube-square"></i></a>
+            </div>
+          </div>
+        
+          <div class="search-container">
+            <div class="search search--animation">
+              <a href="#"><i class="fas fa-search"></i></a>
+            </div>
+          </div>
+          
+        
+          <div class="lang">
+            <select class="lang__select">
+              <option>EN</option>
+              <option>FR</option>
+            </select>
+          </div>
+        
+          <div class="tickets-container">
+            <div class="tickets">
+              <span class="tickets__button">TICKETS</span>
+            </div>
+          </div>
+        </section>
+  
+    </section>
+
+    <section class="nav">
+      
+        <div class="submenu">
+          <a class="logo" href="#"><img src="/images/light-logo.png" alt="Egypt museum"></a>
+          <label for="burger">&#9776;</label>
+          <input type="checkbox" id="burger"/>
+    
+        </div>
+
+        <div class="menu__bar"></div>
+
+        <div class="menu">
+          <a href="index.html">Home</a>
+          <a href="about.html">The Museum</a>
+          <a href="contact.html#map">Visit</a>
+          <a href="events.html#ticket">What's On</a>
+          <a href="event-details.html#event">Collections</a>
+          <a href="#">Pages</a>
+        </div>
+
+        <div class="shop">
+          <a href="event-details.html#ticket"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+      
+        <div class="contact">
+          <a href="#">
+            <span class="contactline"></span>
+            <span class="contactline"></span>
+            <span class="contactline"></span>
+          </a>
+        </div>
+
+    </section>
+
+
+
 
     <!--section 1 SLIDER-->
     <section class="slider">
@@ -113,7 +209,7 @@
                     <div class="separation-line--white"></div>
                     <div class="current-details__arrow-link--white">></div>
                 </li>
-                <li class="prog-list__item"><a class="list-item__link" href="#">03. Past</a>    height: 200rem;
+                <li class="prog-list__item"><a class="list-item__link" href="#">03. Past</a>
 
                 </li>
             </ul>
@@ -390,6 +486,44 @@
             </div>
         </div>
     </section>
+
+
+
+    <footer>
+        <div class="footer__container">
+  
+            <div class="topfooter">
+                <a href="index.html"><img src="/images/footer-logo-1-1.png" alt="Egypt museum"></a>
+            </div>
+          
+            <div class="midfooter">
+        
+            <div class="mail__logo mail--animation">
+              <a href="#"><i class="fas fa-envelope-open-text"></i></a>
+            </div>
+            
+            <form class="site-footer__form" action="http://formspree.io/cedric@audrit.be" method="POST">
+              <input type="text" placeholder="Enter Email Address...">
+            </form>
+            
+            <span class="arrowbox"><a class="arrow" href="#"><i class="fa fa-arrow-right"></i></a></span>
+            
+  
+        </div>
+          
+        <div class="social">
+            <div class="social__logo social--animation">
+              <a href="https://www.facebook.com/cardiffonline1/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/cardiffonline"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/cardiffmuseumdrawing/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.youtube.com/channel/UCE5QyTQXebPSK8Zcq_xTwUg "><i class="fab fa-youtube-square"></i></a>
+            </div>
+  
+            <p class="copyright">Copyright © 2019 <a href="about.html"><span class="egypt">Egypt</span></a>. All rights reserved.</p>
+        </div>
+        
+    </footer>
+  
     
 </body>
 </html>
