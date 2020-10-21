@@ -1,4 +1,6 @@
-fixe some link 
+fixe some link  + merge
+
+-try merge contact+adout
 
 list all link:
 Homepage -> Home                                index.html
