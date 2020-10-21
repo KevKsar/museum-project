@@ -2,7 +2,7 @@
 
 Pages for Epypt Museum website form model pages (screenshot)
 
-url: https://KevKsar.github.ie/museum-project/
+url: https://KevKsar.github.io/museum-project/
 
 trainning project (https://github.com/becodeorg/LIE-Hamilton-4.25/tree/master/01-main-course/01-the-field/04-html-css/03-client-project)
 
