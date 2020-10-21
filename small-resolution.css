@@ -261,7 +261,6 @@ html{
 .exhib-block__bottom{
     display: flex;
     flex-direction: column;
-    justify-content: ;
     align-items: flex-start;
     color: white;
 }
@@ -788,10 +787,6 @@ margin-bottom: 3rem;
     align-items: center;
     width: 100%;
     padding-top: 4rem;
-}
-
-.facts__fact{
-
 }
 
 .fact__icons{
