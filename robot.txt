@@ -1,0 +1,9 @@
+user-agent: *
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /img/
+Disallow: /files/
+Disallow: README.md
+
+#SITEMAP
+Sitemap: https://KevKsar.github.ie/museum-project//sitemap.xml

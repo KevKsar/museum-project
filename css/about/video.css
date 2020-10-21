@@ -1,0 +1,48 @@
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  #overlaytext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
+
+  .video-play {
+    position: absolute;
+    display: block; 
+    /*background: url(http://www.slatecube.com/images/play-btn.png);*/
+    height: 100px;
+    width: 100px;
+    top: 45%;
+    right: 47%;
+    /*
+    background-size: 100px 100px;
+    background-repeat: no-repeat;*/
+    transition: 2s ease;
+  }
+
+  .sec-video__posi-play {
+    position: relative;
+
+  } 
+
+  .video-play:hover {
+  transform: rotate(720deg);
+  height: 120px;
+  width: 120px;
+}
