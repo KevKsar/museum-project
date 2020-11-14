@@ -397,7 +397,7 @@ div.footer__container {
   height: 35px;
 }
 i.mail__logo:hover {
-  color: #black;
+  color: black;
 }
 
 div.mail__logo.mail--animation {

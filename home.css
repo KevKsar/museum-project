@@ -317,7 +317,7 @@ transition: background-color 0.5s, color 0.5s, transform 0.3s;
 
 /*SECTION 4 EVENTS*/
 .events{
-    background-image: url(/resources/event-bg-1-1.jpg);
+    background-image: url(./resources/event-bg-1-1.jpg);
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: left;
@@ -522,7 +522,7 @@ margin-bottom: 3rem;
 /*SECTION 5 MEMBER*/
 
 .member{
-    background-image: linear-gradient(0.25turn, #302e2fc4 ,#d99578), url(/resources/video-bg-1-1.jpg);
+    background-image: linear-gradient(0.25turn, #302e2fc4 ,#d99578), url(./resources/video-bg-1-1.jpg);
     background-position: bottom;
     height: 50rem;
     display: flex;
@@ -787,7 +787,7 @@ background-color: white;
 
 
 .testimonial{
-    background-image: url(/resources/testi-1-1-bg.jpg);
+    background-image: url(./resources/testi-1-1-bg.jpg);
     background-size: cover;
     text-align: center;
     padding: 5rem;
@@ -959,8 +959,6 @@ background-color: white;
 
 .quote__icon{
     
-}
-
     display: block;
     width: 10rem;
     height: 1px;
