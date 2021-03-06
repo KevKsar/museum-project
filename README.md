@@ -66,6 +66,6 @@ ___
 
 
 * Carolin JANSEN    [@iCarolinei](https://github.com/iCarolinei)
-* Kevin CASSART     [@Roustamkhaydarov](https://github.com/Roustamkhaydarov/)
-* Roustam KHAYDAEV  [@KevKsar](https://github.com/KevKsar/)
+* Kevin CASSART     [@KevKsar](https://github.com/KevKsar/)  
+* Roustam KHAYDAEV  [@Roustamkhaydarov](https://github.com/Roustamkhaydarov/)
 * Cedric AUDRIT     [@freecey](https://github.com/freecey/)
